@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda / virtual environments
+.conda/
+.venv/
+venv/
+env/
+
+# Trained model files
+*.pt
+*.pth
+*.ckpt
+
+# Generated POI/data files
+*.csv
+*.geojson
+*.html
+
+# ZIP archives
+*.zip
+# Keep the old Git history backup local
+.git-history-backup/
